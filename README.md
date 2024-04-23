@@ -42,7 +42,7 @@ pg_dump dbname > dumpfile
 Команда восстановления БД из dumpfile: 
 psql dbname < dumpfile 
 или
-pg_restore -ddbname filename
+pg_restore -d dbname filename
 
 ```
 2.2. Да, возможно. Необходимо написать скрипт и добавить его в crontab.
